@@ -1,4 +1,11 @@
-const.waitingLine = ['1°matheus','2°marcos','3°caio'] 
+const waitingLine = []
+let menu = ``
 
+do {
+    menu = prompt(`fila de paciente: ${waitingLine}
+    1- Novo Paciente
+    2- Consultar Paciente
+    3- Sair`)
 
-let novoPaciente = 
+    
+} while (menu !== '3')
