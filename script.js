@@ -1,11 +1,3 @@
-const waitingLine = []
-let menu = ``
+lert waitingLine = ('fila de espera')
+let queue = ('paciente 1','paciente2','paciente3')
 
-do {
-    menu = prompt(`fila de paciente: ${waitingLine}
-    1- Novo Paciente
-    2- Consultar Paciente
-    3- Sair`)
-
-    
-} while (menu !== '3')
